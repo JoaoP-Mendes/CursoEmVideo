@@ -5,7 +5,8 @@ import time
 
 print('========= CONTAGEM REGREVISSA =========')
 
-for c in range(10, -1, -1):
-    print(c)
+for contagemRegressiva in range(10, -1, -1):
+    print(contagemRegressiva)
     time.sleep(1)
 print('FELIZ ANO NOVO!!!!!')
+print(contagemRegressiva)
