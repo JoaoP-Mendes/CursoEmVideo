@@ -1,2 +1,5 @@
-produtos_preco = [("Mouse", 45.00)]
-print(produtos_preco[0][0], [0][1])
+print('-' * 20)
+print('LOJA DO PUTO')
+print('-' * 20)
+
+

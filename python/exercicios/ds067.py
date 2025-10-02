@@ -1,16 +1,13 @@
-vez = 1
-
 while True:
-    tab = int(input('Quer ver a tabada de qual valor? '))
-    
-    while vez <= 10:
-        r = tab * vez
-        print(f'{tab} x {vez} = {r}')
-        vez += 1
-    
+    tab = int(input('Quer verificar a tabuada de qual valor? '))
+    print('-' * 30)
     if tab < 0:
         break
 
+    for c in range (1, 11):
+        print(f'{tab} x {c} = {tab * c}')
+    
+    print('-' * 30)
 """while True:
     n = int(input('Digite um número e veja a sua tabuada: '))
     if n < 0:

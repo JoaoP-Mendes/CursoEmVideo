@@ -1,6 +1,8 @@
 contIdade = 0
 contMen = 0
 contWoYe = 0
+
+
 while True:
     idade = int(input('Idade: '))
     s = str(input('Sexo M/F: ')).upper()
@@ -20,8 +22,10 @@ while True:
         contWoYe += 1
 
 
-    if conti == 'N':
+    elif conti == 'N':
         break
 print(f'Tem {contIdade} pessoas, com mais de 18 anos')
 print(f'Foram cadastrados {contMen} homens')
 print(f'Foram cadastradas {contWoYe} mulheres com menos de 20 anos')
+
+
