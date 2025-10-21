@@ -1,13 +1,14 @@
-valor = []
+valores = []
 
 while True:
-    valor.append(int(input('Digite um valor: ')))
-    if valor.append == valor:
-        print('Valor duplicado, não será possível adicionar')
-        valor.append = False
-    decisao = str(input('Quer continuar? S/N ')).upper().strip()
-    if decisao == 'S':
-        continue
-    elif decisao == 'N':
+    n = int(input('Digite um valor: '))
+    if n not in valores:
+        valores.append(n)
+    else:
+        print('Valor Duplicado! Não vou botar')
+
+    r = str(input('Quer continuar? S/N '))
+    if r in 'Nn':
         break
-print(valor)
+for valor in valores:
+    print(valor)

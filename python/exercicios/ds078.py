@@ -23,5 +23,3 @@ print(f'O maior valor é {menor} na posição ', end='')
 for i, v in enumerate(valor):
     if v == menor:
         print(f'{i} ...', end='')
-
-
